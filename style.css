@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    display: grid;
+    justify-content: stretch;
+    background-color: rgb(228, 221, 212);
+    border:solid darkgreen 5px;
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: blue;
+    border:solid rgb(100, 8, 8) 5px;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+}
+.container {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    justify-content: center;
+    border:solid chartreuse 5px;
+    padding: 50px;
+}
+#botao:hover{
+    background-color: coral;
+}
+
+#botao{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#divform{
+    display: block;
+    
+    border: solid black 5px;
+}
+#div2{
+    background-color: darkgreen;
+    height: 100px;
+    width: 100px;
+    border: solid black 5px;
+}
+#div3{
+    background-color: darkmagenta;
+    height: 100px;
+    width: 100px;
+    border: solid black 5px;
+}
+span{
+    height: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
