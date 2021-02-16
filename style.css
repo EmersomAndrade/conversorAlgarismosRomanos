@@ -6,7 +6,7 @@ html{
 }
 body{
     display: grid;
-    justify-content: stretch;
+    justify-content: center;
     background-color: rgb(228, 221, 212);
     border:solid darkgreen 5px;
     height: 100%;
@@ -18,15 +18,16 @@ h1{
     color: blue;
     border:solid rgb(100, 8, 8) 5px;
     border-radius: 10px;
-    width: 100%;
+    width: 800px;
     height: 70px;
 }
 .container {
-    width: 100%;
+    width: 800px;
     height: 80%;
     display: grid;
     justify-content: center;
-    border:solid chartreuse 5px;
+    border:solid rgb(100, 8, 8) 5px;
+    border-radius: 20px;
     padding: 50px;
 }
 #botao:hover{
@@ -59,6 +60,7 @@ h1{
 }
 span{
     height: 15px;
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
 }
