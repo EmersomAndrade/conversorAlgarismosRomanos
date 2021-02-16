@@ -8,14 +8,13 @@ body{
     display: grid;
     justify-content: center;
     background-color: rgb(228, 221, 212);
-    border:solid darkgreen 5px;
     height: 100%;
     width: 100vw;
     margin: 0;
 }
 h1{
     text-align: center;
-    color: blue;
+    color: rgb(6, 6, 78);
     border:solid rgb(100, 8, 8) 5px;
     border-radius: 10px;
     width: 800px;
